@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="form">
+        <div class="form__label">
+            PLEASE RATE
+            THE GAME
+        </div>
+        <div data-ajax="true" class="rating rating_set">
+            <div class="rating__body">
+                <div class="rating__active"></div>
+                <div class="rating__items">
+                    <input type="radio" class="rating__item" value="1" name="rating">
+                    <input type="radio" class="rating__item" value="2" name="rating">
+                    <input type="radio" class="rating__item" value="3" name="rating">
+                    <input type="radio" class="rating__item" value="4" name="rating">
+                    <input type="radio" class="rating__item" value="5" name="rating">
+                </div>
+
+               <!-- <form action="#" class="form form_margin">
+                    <button type="submit" class="form__btn btn">Submit</button>
+                </form>-->
+            </div>
+            <div class="rating__value"></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
